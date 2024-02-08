@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+
+.landing{
+    background: url(media/main-img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: azure;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+    
+}
+
+#logo{
+    flex: 3;
+    font-size: 2em;
+}
+
+nav{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    
+}
+
+nav a{
+    flex:2;
+    font-size: 1.5em;
+    color: white;
+    padding-left: 20px;
+}
+
+nav a:hover{
+    color: gray;
+    
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2.5em;
+}
+
+.tagline1{
+    color: red;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: yellow;
+
+}
+.tagline3{
+    color: whitesmoke;
+}
+
+.maintext div{
+    margin-top: 5px;
+}
+
+.maintext button{
+    width: 15vw;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 7px;
+    background: rgb(255, 217, 0);
+    color: white;
+}
+
+#menuheading,#locationhead{
+    font-size: 2.5em;
+    background: linear-gradient(to right, rgb(100, 100, 100), rgb(43, 39, 39));
+    color: rgb(230, 19, 19); 
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right, rgb(100, 100, 100), rgb(43, 39, 39));
+    color: white;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+.menu th{
+    color: rgb(255, 166, 0);
+    font-size: 1.8em;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+
+}
+.menu td:nth-child(2){
+    justify-self: right;
+
+}
+
+.location{
+    background: linear-gradient(to right, rgb(100, 100, 100), rgb(43, 39, 39));
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location h2{
+    color: green;
+    margin-bottom: .5em;
+
+}
+
+.location div{
+    flex: 1;
+    padding: .8em;
+    min-width: 220px;
+    
+}
+
+footer{
+    background: rgb(68, 65, 65);
+    padding: .3em 1em;
+}
